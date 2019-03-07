@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: k8s-java
+
+site:
+  xiaolei:
+    host: ${CONFIG_HOST}
+    port: ${CONFIG_PORT}
