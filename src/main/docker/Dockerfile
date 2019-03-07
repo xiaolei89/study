@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/java/jdk
+FROM openjdk:8u181
 
 ADD ./k8s-java.jar /app.jar
 
