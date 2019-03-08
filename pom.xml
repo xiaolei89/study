@@ -66,7 +66,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>1.1.0</version>
                 <configuration>
-                    <imageName>${docker.image.prefix}/demo:1.0.0</imageName>
+                    <imageName>${docker.image.prefix}/demo:1.0.1</imageName>
                     <dockerDirectory>src/main/docker</dockerDirectory>
                     <resources>
                         <resource>
